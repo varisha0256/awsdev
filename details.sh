@@ -11,3 +11,5 @@ movies () {
  Name=${@}
  echo ${Name}
 }
+echo "calling a function"
+movies BahuBali
