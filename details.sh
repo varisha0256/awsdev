@@ -13,3 +13,7 @@ movies () {
 }
 echo "calling a function"
 movies BahuBali
+echo
+echo "Users in the system"
+USERS=$(cat /etc/passwd | cut -d ":" -f 1)
+echo ${USERS}
